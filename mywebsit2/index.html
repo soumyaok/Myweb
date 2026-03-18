@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">YourName</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Hello, I'm <span class="your-name">Soumya RJ</span></h2>
+    <h3><span class="typing"></span></h3>
+  </section>
+
+  <section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>
+      I'm <strong>Soumyaranjan Jena</strong> — a creator, a coder, and a curious mind.
+      I breathe life into ideas, whether it's an AI assistant that talks like a buddy, 
+      or a magical website that speaks without images. ✨<br><br>
+      From exploring the depths of DBMS to playing with computer vision in robotics,
+      I’m always diving deep, learning more, and building better. I believe in code with soul —
+      where tech meets emotion, and logic meets love. ❤️<br><br>
+      When I'm not coding, I dream up new possibilities, solve problems for fun,
+      and sometimes, build things just to make someone smile.
+    </p>
+  </section>
+  
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project Title</h3>
+      <p>Short description of your project.</p>
+      <a href="https://github.com/coderkida07/your-repo" target="_blank">View Project</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formsubmit.co/soumyajena@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+      
+        <!-- hidden stuff -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="New Contact from Portfolio!">
+        <input type="hidden" name="_template" value="box">
+        <input type="hidden" name="_next" value="https://yourwebsite.com/thankyou.html">
+      
+        <button type="submit">Send</button>
+        <input type="hidden" name="_next" value="https://yourdomain.com/thankyou.html">
+
+
+      </form>
+      
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
